@@ -25,5 +25,7 @@ docker run -it -v ./pdf_input:/pdf_input -v ./pdf_output:/pdf_output -p 8501:850
 # MULTIPLE PDFS to MARKDOWN
 marker /pdf_input/ /pdf_output --workers 4 --max 10 --min_length 10000
 
-# USE BROWSER WITH `marker_gui` 
-URL: [http://localhost:8501](http://localhost:8501)
+# USE BROWSER
+> `marker_gui`
+OPEN BROWSER (loading modules take 10 minutes)
+> URL: [http://localhost:8501](http://localhost:8501)
