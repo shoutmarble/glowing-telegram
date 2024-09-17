@@ -13,7 +13,6 @@ RUN apt -y install python3-pip
 RUN apt -y install python3.12-venv
 
 WORKDIR /opt
-COPY REDPILL.pdf .
 
 RUN python3 -m venv marker && \
 	. marker/bin/activate && \
